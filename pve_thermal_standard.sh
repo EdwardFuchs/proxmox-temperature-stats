@@ -18,7 +18,35 @@ THERMAL_TPL="
             const c1 = value.match(/Core 1.*?\+([\d\.]+)Â/)[1];
             const c2 = value.match(/Core 2.*?\+([\d\.]+)Â/)[1];
             const c3 = value.match(/Core 3.*?\+([\d\.]+)Â/)[1];
-            return \`Core 0: ${c0} ℃ | Core 1: ${c1} ℃ | Core 2: ${c2} ℃ | Core 3: ${c3} ℃\`
+            const c4 = value.match(/Core 4.*?\+([\d\.]+)Â/)[1];
+            const c5 = value.match(/Core 5.*?\+([\d\.]+)Â/)[1];
+            const c6 = value.match(/Core 6.*?\+([\d\.]+)Â/)[1];
+            const c7 = value.match(/Core 7.*?\+([\d\.]+)Â/)[1];
+            const c8 = value.match(/Core 8.*?\+([\d\.]+)Â/)[1];
+            const c9 = value.match(/Core 9.*?\+([\d\.]+)Â/)[1];
+            const c10 = value.match(/Core 10.*?\+([\d\.]+)Â/)[1];
+            const c11 = value.match(/Core 11.*?\+([\d\.]+)Â/)[1];
+            const c12 = value.match(/Core 12.*?\+([\d\.]+)Â/)[1];
+            const c13 = value.match(/Core 13.*?\+([\d\.]+)Â/)[1];
+            const c14 = value.match(/Core 14.*?\+([\d\.]+)Â/)[1];
+            const c15 = value.match(/Core 15.*?\+([\d\.]+)Â/)[1];
+            const c16 = value.match(/Core 16.*?\+([\d\.]+)Â/)[1];
+            const c17 = value.match(/Core 17.*?\+([\d\.]+)Â/)[1];
+            const c18 = value.match(/Core 18.*?\+([\d\.]+)Â/)[1];
+            const c19 = value.match(/Core 19.*?\+([\d\.]+)Â/)[1];
+            const c20 = value.match(/Core 20.*?\+([\d\.]+)Â/)[1];
+            const c21 = value.match(/Core 21.*?\+([\d\.]+)Â/)[1];
+            const c22 = value.match(/Core 22.*?\+([\d\.]+)Â/)[1];
+            const c23 = value.match(/Core 23.*?\+([\d\.]+)Â/)[1];
+            const c24 = value.match(/Core 24.*?\+([\d\.]+)Â/)[1];
+            const c25 = value.match(/Core 25.*?\+([\d\.]+)Â/)[1];
+            const c26 = value.match(/Core 26.*?\+([\d\.]+)Â/)[1];
+            const c27 = value.match(/Core 27.*?\+([\d\.]+)Â/)[1];
+            const c28 = value.match(/Core 28.*?\+([\d\.]+)Â/)[1];
+            const c29 = value.match(/Core 29.*?\+([\d\.]+)Â/)[1];
+            const c30 = value.match(/Core 30.*?\+([\d\.]+)Â/)[1];
+            const c31 = value.match(/Core 31.*?\+([\d\.]+)Â/)[1];
+            return \`Core 0: ${c0} ℃  | Core 0: ${c1} ℃  | Core 0: ${c2} ℃  | Core 0: ${c3} ℃  | Core 0: ${c4} ℃  | Core 0: ${c5} ℃  | Core 0: ${c6} ℃  | Core 0: ${c7} ℃  | Core 0: ${c8} ℃  | Core 0: ${c9} ℃  | Core 0: ${c10} ℃  | Core 0: ${c11} ℃  | Core 0: ${c12} ℃  | Core 0: ${c13} ℃  | Core 0: ${c14} ℃  | Core 0: ${c15} ℃  | Core 0: ${c16} ℃  | Core 0: ${c17} ℃  | Core 0: ${c18} ℃  | Core 0: ${c19} ℃  | Core 0: ${c20} ℃  | Core 0: ${c21} ℃  | Core 0: ${c22} ℃  | Core 0: ${c23} ℃  | Core 0: ${c24} ℃  | Core 0: ${c25} ℃  | Core 0: ${c26} ℃  | Core 0: ${c27} ℃  | Core 0: ${c28} ℃  | Core 0: ${c29} ℃  | Core 0: ${c30} ℃  | Core 0: ${c31} ℃\`
         }
     }"
 
